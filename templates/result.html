@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Article Topic Prediction - Result</title>
+    <style>
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body background="../static/images/bg2.png">
+    <div class="content">
+        <h1>Article Topic Prediction - Result</h1>
+        <p style="font-size:20px "><strong>Article Title:</strong> {{ title }}</p>
+        <label style="font-size:20px "><strong>Article Abstract:</strong></label><br>
+        <textarea rows="15" cols="70" style="resize:none" readonly>{{ abstract }}</textarea><br><br>
+        <p style="font-size:20px "><strong>Predicted Topics:</strong> {{ topic }}</p>
+    </div>
+</body>
+</html>

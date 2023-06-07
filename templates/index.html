@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Article Topic Prediction</title>
+   <style>
+        .content {
+        max-width: 500px;
+        margin-left:150px;}
+        textarea {
+        font-size: 18px;}
+        .btn{
+            background-color: #2860a0;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;}
+      
+    </style>
+</head>
+<body background="../static/images/bg2.png">
+    
+    <div class="content">
+    <h1 style="font-size:40px">Article Topic Prediction</h1>
+    <form action="/" method="POST">
+        <label style="font-size:20px" for="title">Title:</label><br>
+        <textarea rows="1" cols="70" type="text" id="title" name="title"  style="resize:none" required></textarea>
+        
+        <label style="font-size:20px " ,for="abstract">Abstract:</label><br>
+        <textarea  rows="15" cols="70" id="abstract" name="abstract"style="resize:none" required></textarea><br><br>
+        <input type="submit" value="Predict" class="btn">
+
+ 
+
+    </form>
+</div>
+</body>
+</html>

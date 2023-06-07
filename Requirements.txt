@@ -1,0 +1,8 @@
+Pandas
+numpy
+gensim
+matplotlib
+wordcloud
+Joblib
+flask
+python
